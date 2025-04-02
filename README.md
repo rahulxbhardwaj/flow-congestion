@@ -1,40 +1,33 @@
-Flow and Congestion Control Visualization
+# 🚀 Flow and Congestion Control Visualization
 
-A simple Python-based GUI simulation demonstrating Stop-and-Wait and Sliding Window flow control protocols using Tkinter.
+A simple **Python-based GUI simulation** demonstrating **Stop-and-Wait** and **Sliding Window** flow control protocols using Tkinter.
 
-Features
+## ✨ Features
+- 🔄 **Stop-and-Wait Protocol**: Simulates packet transmission with ACK and timeout handling.
+- 📡 **Sliding Window Protocol**: Demonstrates multiple packets in transit with selective ACKs.
+- 🎬 **Animated Visualization**: Packets move between sender and receiver in real-time.
+- ⚡ **Random Network Conditions**: Simulates packet loss, delays, and retransmissions.
 
-Stop-and-Wait Protocol: Simulates packet transmission with ACK and timeout handling.
+## 📥 Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/rahulxbhardwaj/flow-congestion.git
+   cd flow-congestion
+   ```
+2. **Install dependencies** (Only Tkinter is required, included in Python by default):
+   ```bash
+   pip install tk
+   ```
+3. **Run the simulation:**
+   ```bash
+   python flow_control_gui.py
+   ```
 
-Sliding Window Protocol: Demonstrates multiple packets in transit with selective ACKs.
+## 🛠 How It Works
+1. **Select a protocol**: Choose between **Stop-and-Wait** or **Sliding Window**.
+2. **Start Simulation**: Click the button to begin.
+3. **Observe real-time transmission**: Watch packet movement, ACK responses, and retransmissions in action.
 
-Animated Visualization: Packets move between sender and receiver in real-time.
+## 👨‍💻 Developed By
+**Rahul Bhardwaj** 🚀
 
-Random Network Conditions: Simulates packet loss, delays, and retransmissions.
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/rahulxbhardwaj/flow-congestion.git
-cd flow-congestion
-
-Install dependencies (only Tkinter is required, included in Python by default):
-
-pip install tk
-
-Run the simulation:
-
-python flow_control_gui.py
-
-How It Works
-
-Choose a protocol (Stop-and-Wait or Sliding Window).
-
-Click Start Simulation to visualize packet transmission.
-
-Observe real-time movement, ACKs, and retransmissions.
-
-Developed By
-
-Rahul Bhardwaj 🚀
